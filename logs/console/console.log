@@ -1,0 +1,241 @@
+[2020-09-23T18:32:37.207] [INFO] PgService - SSL to Postgresql disabled
+[2020-09-23T18:32:37.207] [INFO] PgService - connecting to Postgresql postgres://cups:******@192.168.1.100:5432/fabricexplorer
+[2020-09-23T18:32:38.669] [INFO] Platform -  network_config.id  kafka_default  network_config.profile  ./connection-profile/connection.json
+[2020-09-23T18:32:38.721] [INFO] Platform - Already registered : admin
+[2020-09-23T18:32:38.725] [INFO] FabricConfig - config.client.tlsEnable  true
+[2020-09-23T18:32:38.725] [INFO] FabricConfig - FabricConfig, this.config.channels  mychannel
+[2020-09-23T18:32:39.303] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:32:39.312] [INFO] Platform - initializeListener, network_id, network_client  kafka_default { name: 'kafka',
+  version: '1.0.0',
+  client:
+   { tlsEnable: true,
+     adminCredential: { id: 'cups', password: '123456789' },
+     enableAuthentication: true,
+     organization: 'Org1MSP',
+     connection: { timeout: [Object] } },
+  channels: { mychannel: { peers: [Object], connection: [Object] } },
+  organizations:
+   { Org1MSP:
+      { mspid: 'Org1MSP',
+        adminPrivateKey: [Object],
+        peers: [Array],
+        signedCert: [Object] } },
+  peers:
+   { 'peer0.org1.example.com':
+      { tlsCACerts: [Object],
+        url: 'grpcs://peer0.org1.example.com:7051' } } }
+[2020-09-23T18:32:39.326] [INFO] main - Please open web browser to access ：http://localhost:8080/
+[2020-09-23T18:32:39.326] [INFO] main - pid is 6889
+[2020-09-23T18:32:39.828] [INFO] PgService - SSL to Postgresql disabled
+[2020-09-23T18:32:39.828] [INFO] PgService - connecting to Postgresql postgres://cups:******@192.168.1.100:5432/fabricexplorer
+[2020-09-23T18:32:41.281] [INFO] Synchronizer - initialize : 60
+[2020-09-23T18:32:41.282] [INFO] SyncPlatform - Sync process is started for the network : [kafka_default] and client : [kafka_default]
+[2020-09-23T18:32:41.282] [INFO] FabricConfig - config.client.tlsEnable  true
+[2020-09-23T18:32:41.282] [INFO] FabricConfig - FabricConfig, this.config.channels  mychannel
+[2020-09-23T18:32:42.227] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:32:42.245] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:32:42.261] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:32:42.501] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:32:42.513] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:32:42.533] [INFO] Sync - Synchronizer pid is 6904
+[2020-09-23T18:32:42.578] [INFO] FabricUtils - generateBlockHash 1
+[2020-09-23T18:32:42.583] [INFO] FabricEvent - Successfully created channel event hub for [mychannel]
+[2020-09-23T18:32:42.585] [INFO] SyncServices - block_row.blocknum  1
+[2020-09-23T18:32:42.586] [INFO] FabricUtils - generateBlockHash 2
+[2020-09-23T18:32:42.587] [INFO] SyncServices - block_row.blocknum  2
+[2020-09-23T18:32:42.587] [INFO] FabricUtils - generateBlockHash 3
+[2020-09-23T18:32:42.588] [INFO] SyncServices - block_row.blocknum  3
+[2020-09-23T18:32:42.589] [INFO] FabricUtils - generateBlockHash 4
+[2020-09-23T18:32:42.592] [INFO] SyncServices - block_row.blocknum  4
+[2020-09-23T18:32:52.758] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:32:52.766] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:32:52.777] [INFO] Platform - getClient (id:kafka_default)
+[2020-09-23T18:32:52.975] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:33:12.534] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:33:12.550] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:33:12.572] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:33:12.790] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:33:12.796] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:33:42.538] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:33:42.549] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:33:42.564] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:33:42.753] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:33:42.757] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:34:12.539] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:34:12.545] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:34:12.557] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:34:12.642] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:34:12.645] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:34:42.548] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:34:42.557] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:34:42.570] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:34:42.736] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:34:42.740] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:35:12.548] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:35:12.558] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:35:12.567] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:35:12.672] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:35:12.683] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:35:42.549] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:35:42.557] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:35:42.568] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:35:42.667] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:35:42.670] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:36:12.550] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:36:12.559] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:36:12.571] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:36:12.659] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 5, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:36:12.663] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:36:16.314] [INFO] FabricUtils - generateBlockHash 5
+[2020-09-23T18:36:16.323] [INFO] SyncServices - block_row.blocknum  5
+[2020-09-23T18:36:19.453] [INFO] FabricUtils - generateBlockHash 6
+[2020-09-23T18:36:19.461] [INFO] SyncServices - block_row.blocknum  6
+[2020-09-23T18:36:42.550] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:36:42.559] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:36:42.571] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:36:42.659] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:36:42.662] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:37:12.551] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:37:12.559] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:37:12.577] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:37:12.657] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:37:12.660] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:37:42.552] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:37:42.558] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:37:42.567] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:37:42.655] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:37:42.658] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:38:12.553] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:38:12.562] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:38:12.574] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:38:12.654] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:38:12.656] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:38:42.554] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:38:42.560] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:38:42.570] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:38:42.657] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:38:42.660] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:39:12.555] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:39:12.563] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:39:12.576] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:39:12.658] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:39:12.662] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:39:42.556] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:39:42.569] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:39:42.581] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:39:42.661] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:39:42.666] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:40:12.556] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:40:12.563] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:40:12.574] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:40:12.650] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:40:12.653] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:40:42.557] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:40:42.565] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:40:42.577] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:40:42.679] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:40:42.682] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:41:12.558] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:41:12.566] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:41:12.578] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:41:12.729] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:41:12.734] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:41:42.559] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:41:42.571] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:41:42.585] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:41:42.832] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:41:42.835] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:42:12.560] [INFO] SyncPlatform - Updating the client network and other details to DB
+[2020-09-23T18:42:12.568] [INFO] SyncServices - SyncServices.synchNetworkConfigToDB client  kafka_default  channel_name  mychannel
+[2020-09-23T18:42:12.580] [INFO] FabricUtils - generateBlockHash 0
+[2020-09-23T18:42:12.669] [INFO] FabricClient - Discovered Org1MSP [ { mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 7, high: 0, unsigned: true },
+    chaincodes: [ [Object] ] } ]
+[2020-09-23T18:42:12.672] [INFO] FabricGateway - queryInstantiatedChaincodes mychannel
+[2020-09-23T18:42:18.883] [INFO] Sync - <<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>

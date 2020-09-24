@@ -1,0 +1,9 @@
+{
+	"network-configs": {
+		"kafka_default": {
+			"name": "kafka_default",
+			"profile": "./connection-profile/connection.json"
+		}
+	},
+	"license": "Apache-2.0"
+}
